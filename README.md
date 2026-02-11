@@ -6,7 +6,7 @@ PPIF is a possible therapeutic target for Alzheimer's disease. Inhibiting PPIF i
 
 ## Prerequisites
 
-- Python >= 3.14
+- Python >= 3.12
 - [uv](https://docs.astral.sh/uv/) for dependency management
 - A [Modal](https://modal.com) account (for running BoltzGen)
 
