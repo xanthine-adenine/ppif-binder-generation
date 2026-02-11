@@ -1,0 +1,30 @@
+[project]
+name = "ppif-binder-generation"
+version = "0.1.0"
+description = "Demonstration of BoltzGen for PPIF binder design"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "modal>=1.3.2",
+    "requests>=2.32.5",
+    "ruff>=0.15.0",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+    "RUF", # ruff-specific rules
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["ppif_binder_project"]

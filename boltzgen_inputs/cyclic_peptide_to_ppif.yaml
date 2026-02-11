@@ -1,0 +1,16 @@
+entities:
+  - protein: 
+      id: B
+      sequence: 8..16
+      cyclic: true
+  - file:
+      path: data/2bit.cif
+       
+      include: 
+        - chain:
+            id: X
+
+      binding_types:
+        - chain:
+            id: X
+            binding: 
