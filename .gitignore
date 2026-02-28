@@ -209,3 +209,4 @@ __marimo__/
 # Misc
 *.tar.gz
 *.cif
+modal/out/
