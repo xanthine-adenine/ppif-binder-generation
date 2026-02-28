@@ -8,9 +8,9 @@ entities:
        
       include: 
         - chain:
-            id: X
+            id: A
 
       binding_types:
         - chain:
-            id: X
+            id: A
             binding: 55,59,61,81,82,101,103,117,121,122
