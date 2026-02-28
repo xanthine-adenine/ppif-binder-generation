@@ -4,7 +4,7 @@ entities:
       sequence: 8..16
       cyclic: true
   - file:
-      path: data/2bit.cif
+      path: 2bit.cif
        
       include: 
         - chain:
@@ -13,4 +13,4 @@ entities:
       binding_types:
         - chain:
             id: X
-            binding: 
+            binding: 55,59,61,81,82,101,103,117,121,122

@@ -9,7 +9,7 @@ from pathlib import Path
 
 import requests
 
-OUT_DIR = Path("data")
+OUT_DIR = Path("modal")
 
 
 def main() -> None:
