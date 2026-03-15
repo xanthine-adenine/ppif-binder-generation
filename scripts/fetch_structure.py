@@ -14,7 +14,7 @@ OUT_DIR = Path("modal")
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Download a structure from RCSB PDB.")
-    parser.add_argument("pdb_id", nargs="?", default="2bit", help="PDB ID to download (default: 2bit)")
+    parser.add_argument("pdb_id", nargs="?", default="7r2h", help="PDB ID to download (default: 7r2h)")
     args = parser.parse_args()
 
     pdb_id = args.pdb_id.lower()
