@@ -96,13 +96,14 @@ def run_boltzgen(
 @app.local_entrypoint()
 def main(
     num_designs: int = 2,
+    data_dir: str = "./data/",
     out_dir: str = "./out/",
     check: bool = False,
 ):
     import re
     from datetime import datetime
 
-    yaml_path = Path(__file__).parent / YAML_NAME
+    yaml_path = Path(data_dir) / YAML_NAME
     yaml_str = yaml_path.read_text()
 
     additional_files = {}
