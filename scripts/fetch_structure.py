@@ -22,7 +22,7 @@ def main() -> None:
 
     data_dir.mkdir(parents=True, exist_ok=True)
     out_path = data_dir / f"{pdb_id}.cif"
-    print(f"Downloading {pdb_id}.cif ... ", end="")
+    print(f"Downloading {pdb_id}.cif... ", end="")
     resp = requests.get(url)
     resp.raise_for_status()
     out_path.write_bytes(resp.content)
